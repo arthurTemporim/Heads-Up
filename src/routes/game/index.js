@@ -139,9 +139,9 @@ export default class Profile extends Component {
 	renderEndState = () => {
 		return (
 			<div class="game game--ended">
-				<h2>Time's up!</h2>
+				<h2>Acabou o Tempo!</h2>
 				<button type="button" class="button" onClick={() => this.startGame()}>
-					Play again
+					Jogar de novo
 				</button>
 			</div>
 		);
@@ -172,14 +172,14 @@ export default class Profile extends Component {
 						class="button button--small"
 						onClick={() => this.next()}
 					>
-						Next
+						Próximo
 					</button>
 					<button
 						type="button"
 						class="button button--small"
 						onClick={() => this.stopGame()}
 					>
-						Stop
+						Parar
 					</button>
 				</div>
 			</div>
@@ -191,7 +191,7 @@ export default class Profile extends Component {
 
 		return (
 			<div class="game game--starting">
-				<h2>Starting in: {time}</h2>
+				<h2>Iniciando em: {time}</h2>
 			</div>
 		);
 	};

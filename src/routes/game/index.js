@@ -150,9 +150,9 @@ export default class Profile extends Component {
 	renderPendingState = () => {
 		return (
 			<div class="game game--pending">
-				<h2>Ready to begin?</h2>
+				<h2>Pronto para começar?</h2>
 				<button type="button" class="button" onClick={() => this.startGame()}>
-					Start
+					Iniciar
 				</button>
 			</div>
 		);

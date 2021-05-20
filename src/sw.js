@@ -1,3 +1,6 @@
+import {precacheAndRoute} from 'workbox-precaching';
+precacheAndRoute(self.__WB_MANIFEST);
+
 self.__precacheManifest = [].concat(self.__precacheManifest || []);
 
 const isNav = event => event.request.mode === 'navigate';
